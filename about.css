@@ -1,0 +1,119 @@
+/* Space out content a bit */
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(187, 202, 202);
+  }
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  /* Custom page header */
+  .header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  /* Make the masthead heading the same height as the navigation */
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
+
+  #profile-pic {
+      position: relative;
+      height: 267px;
+      width: 200px;
+      margin: 0 auto;
+      background-image: url("me_opt.jpg")
+  }
+  
+  .top-left-header{
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .nav-item{
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  /* Blockquotes */
+  .blockqoute{
+      display: none;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+  
+  /* Custom page footer */
+  .footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+  }
+  
+  /* Customize container */
+  @media (min-width: 48em) {
+    .container {
+      max-width: 46rem;
+    }
+  }
+  .container-narrow > hr {
+    margin: 2rem 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+      display: none;
+    text-align: center;
+    background-image: url("code.gif");
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  .display-3 {
+      display: none;
+    color: #9cc4daec;
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  .about-lead {
+    color: #0c0a0aec;
+    font-size: 21px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .jumbotron .btn {
+    padding: .75rem 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 3rem 0;
+  }
+  .marketing p + h4 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 2rem;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
