@@ -1,0 +1,172 @@
+body {
+    min-height: 75rem; /* Can be removed; just added for demo purposes */
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  .album {
+    min-height: 50rem;/* Can be removed; just added for demo purposes */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color:rgb(187, 202, 202);
+  }
+  
+  .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    background-color:rgb(187, 202, 202);
+  }
+  
+  .card > img {
+    margin-bottom: .75rem;
+    width: 260px;
+    height: 220px;
+  }
+  
+  .card-text {
+    font-size: 85%;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+
+  /* Space out content a bit */
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: rgb(187, 202, 202);
+  }
+  
+  /* Everything but the jumbotron gets side spacing for mobile first views */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  /* Custom page header */
+  .header {
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  /* Make the masthead heading the same height as the navigation */
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 3rem;
+  }
+  
+  .top-left-header{
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .nav-item{
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  /* Blockquotes */
+  .blockqoute{
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+  
+  }
+  
+  /* Custom page footer */
+  .footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+  }
+  
+  /* Customize container */
+  @media (min-width: 48em) {
+    .container {
+      max-width: 46rem;
+    }
+  }
+  .container-narrow > hr {
+    margin: 2rem 0;
+  }
+  
+  /* Main marketing message and sign up button */
+  .jumbotron {
+      display: none;
+    text-align: center;
+    background-image: url("code.gif");
+    border-bottom: .05rem solid #e5e5e5;
+  }
+  .display-3 {
+    color: #9cc4daec;
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Orbitron', sans-serif;
+  }
+  .about-lead {
+    color: #0c0a0aec;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+  }
+  .jumbotron .btn {
+    padding: .75rem 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Supporting marketing content */
+  .marketing {
+    margin: 3rem 0;
+  }
+  .marketing p + h4 {
+    margin-top: 1.5rem;
+  }
+  
+  /* Responsive: Portrait tablets and up */
+  @media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 2rem;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+      border-bottom: 0;
+    }
+  }
