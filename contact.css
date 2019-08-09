@@ -51,9 +51,9 @@ body {
 }
 
 .finger-point{
-  height: 220px;
-  width: 220px;
-  
+  height: 140px;
+  width: 140px;
+
 }
 
 @keyframes colorful-text {
