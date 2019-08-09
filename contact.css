@@ -50,6 +50,12 @@ body {
   animation-iteration-count: infinite;
 }
 
+.finger-point{
+  height: 220px;
+  width: 220px;
+  
+}
+
 @keyframes colorful-text {
   0%   {color:black; }
   25%  {color:yellow; background-color: purple;}
