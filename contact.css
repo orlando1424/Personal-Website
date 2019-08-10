@@ -86,6 +86,11 @@ body {
   font-size: 85%;
   font-family: "Orbitron", sans-serif;
 }
+/* font size for contact info  */
+.contact {
+font-size: 20px;
+font-weight: bolder;
+}
 
 footer {
   padding-top: 3rem;
