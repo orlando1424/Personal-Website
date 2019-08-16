@@ -50,6 +50,12 @@ body {
   animation-iteration-count: infinite;
 }
 
+.email {
+  height:30px;
+  width: 300px;
+  margin-bottom: 9px;
+
+}
 .finger-point {
   height: 140px;
   width: 140px;
